@@ -1,6 +1,6 @@
 run
 function run(){
-    const puppeteer = require('puppeteer');
+    const puppeteer = require('puppeteer'); //you need puppeteer
     async function scrapeProudct(url){
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
