@@ -19,4 +19,4 @@ function run(){
     scrapeProudct('https://sites.audi.dk/leasing/?mn=TT+coupe&bid=24279')// the website you wanna scrape rember its headless so no browser will open
     
 }
-setInterval(run, 10000); //to test out it works set it to only 1000 when you know it works you cant set your own time interval
+setInterval(run, 10000); //to test out it works set it to only 1000 when you know it works you can set your own time interval
